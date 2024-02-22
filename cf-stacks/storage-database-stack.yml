@@ -9,7 +9,7 @@ Parameters:
     Default: poja-base-rds
   ProdDbClusterTimeout:
     Type: Number
-    Default: 30000
+    Default: 3000
 
 Conditions:
   IsProdEnv: !Equals
